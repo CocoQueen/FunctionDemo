@@ -1,4 +1,4 @@
-package com.example.coco.test2;
+package com.example.coco.test2.changefragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,12 +12,12 @@ import android.widget.TextView;
 /**
  * Created by Coco on 2018/11/9
  */
-public class HomeFragment extends Fragment {
+public class MineFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         TextView textView=new TextView(getActivity());
-        textView.setText("lalallalal");
+        textView.setText("222222");
         return textView;
     }
 }
